@@ -1,0 +1,9 @@
+->usando o <!DOCTYPE html> faz que o navegador entenda que está sendo usado o html
+HTML - HyperText Markup Language
+
+-> Todo conteúdo visível deverá vir na tag body
+-> Tag head devera vir algumas configuracoes do documento
+-> CSS - Cascading Style Sheet
+-> Dentro da cascata, temos a Força da Cascata, o ID é o mais forte, class é o segundo mais forte, e a tag é o mais fraco
+-> quando voce "--" você define variaveis no seu Css, é recomendados deixar elas separadas, e quando for usar a variavel é necessario usar o var(--nomeVariavel)
+-> tamanho da fonte padrão é 16px, 100%, 1rem. Tudo é relativo aos elementos de cima
