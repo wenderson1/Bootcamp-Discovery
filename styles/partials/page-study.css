@@ -141,7 +141,6 @@
 
 .teacher-item header {
     font: 700 2.4rem Archivo;
-    display: block;
     color: var(--color-text-title);
 }
 
