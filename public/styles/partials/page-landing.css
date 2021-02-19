@@ -81,10 +81,13 @@
                              }
                              /*uma regra css que so vai ser aplicada quando cumprir um certo padrao*/
                              
-                             @media (max-width:699px) {
+                             @media (max-width:1100px) {
                                   :root {
                                      font-size: 40%;
                                      /*modificar medidas em rem*/
+                                 }
+                                 .hero-image {
+                                     height: 45rem;
                                  }
                              }
                              

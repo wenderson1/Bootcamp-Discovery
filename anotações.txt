@@ -15,3 +15,6 @@ $ npm install nodemon para a mesma funcionalidade do Live server é necessario c
     },
 
 npm run dev para iniciar o nodemon
+$ npm install nunjucks  - para instalar o nunjucks
+
+$ npm install sqlite-async - para instalar dependência sqlite
