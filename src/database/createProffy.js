@@ -4,9 +4,9 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
         INSERT INTO proffys (
             name,
             avatar,
-            whats,
+            whatsapp,
             bio
-        ) VALUES(
+        ) VALUES (
             "${proffyValue.name}",
             "${proffyValue.avatar}",
             "${proffyValue.whatsapp}",
@@ -45,6 +45,6 @@ module.exports = async function(db, { proffyValue, classValue, classScheduleValu
             );
     `)
         })
-        //executar todos os db.run() das classes schedules
+        //aqui vou executar todos os db.run() das classes schedules
     await Promise.all(insertedAllClasscheduleValues);
 }

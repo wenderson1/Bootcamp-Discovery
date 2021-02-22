@@ -58,5 +58,6 @@ db.then(async() => {
         AND class_schedule.time_from <= "1300"
         AND class_schedule.time_to > "1300"
     `)
+    console.log(selectClassesSchedules)
 
 })
